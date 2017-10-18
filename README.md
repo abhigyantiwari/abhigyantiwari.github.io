@@ -1,2 +1,2 @@
-# myself
-Hello I'm Abhigyan Tiwari, a Web Developer and User Interface Designer
+# Abhigyan Tiwari
+Hello! from a Web Developer and User Interface Designer.
