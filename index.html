@@ -1,59 +1,47 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="abhig">
+<!doctype html>
+<html class="no-js" lang="en" ng-app="samosa" ng-cloak>
     <head>
-        <meta charset="UTF-8">
-        <title>Abhigyan</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Title changes according the page's respective controller -->
+        <title>{{whichPage}}</title>
+
         <meta name="description" content="Hello I'm Abhigyan Tiwari, free as wind. Do You Have Web Development Work or A User Interface Design Work?
         I Can Do It For You!">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <script src="scripts/jquery.min.js" type="text/javascript"></script>
-        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-		<link rel="shortcut icon" href="/images/favico_H09_icon.ico" type="image/x-icon">
-		<link rel="icon" href="/images/favico_H09_icon.ico" type="image/x-icon">
-        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
-        
-    </head>
-    <body>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 dummy-space"></div>
-                <div class="col-sm-12 dummy-space"></div>
-                <div class="col-sm-12 dummy-space"></div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-11">
-                    <h1><span class="myName" title="Namaste!">Abhigyan Tiwari</span></h1>
-                </div>
-                <div class="col-sm-12 dummy-space"></div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-11">
-                    <p class="label label-info" style="font-size: 14px; font-family: sans-serif;">Web Developer</p>
-                    <p class="label label-success" style="font-size: 14px; font-family: sans-serif; margin-left: 15px;">UI Designer</p>
-                </div>
-                <div class="col-sm-12 dummy-space"></div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-11">
-                    <a href="pages/blog.html" class="btn btn-warning" style="border:1px solid #4caf50;background-color:white;color:#424242;">Blog</a>
-                    <a href="#" class="btn btn-warning" style="border:1px solid #ffeb3b;background-color:white;color:#424242;">Portfolio</a>
-                    <a href="#" class="btn btn-warning" style="border:1px solid #4dd0e1;background-color:white;color:#424242">About</a>
-                </div>
-                <div class="maintainence label label-warning">Website Under Construction</div>
-            </div>
-        </div>
-        <script src="js/app.js" type="text/javascript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-       <!-- Hotjar Tracking Code for abhigyantiwari.github.io -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:690406,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script> 
+        <!-- I love Samosa, mo tan anythin -->
+        <link rel="icon" href="favicon.ico">
+
+        <!-- HTML5 Boilerplate Opinionated CSS -->
+        <link rel="stylesheet" href="resources/css/vendor/main.css">
+
+        <link href="resources/css/vendor/animate.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="resources/css/vendor/normalize.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link href="resources/css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body ng-view>
+
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        
+
+        <script src="resources/scripts/vendor/angular.min.js"></script>
+        <script src="resources/scripts/vendor/angular-route.js"></script>
+        <script src="resources/scripts/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="resources/scripts/vendor/plugins.js"></script>
+        <script src="resources/scripts/app.js"></script>
+        <script src="controllers/home.controller.js"></script>
+        <script src="controllers/blog.controller.js"></script>
+        <script src="controllers/portfolio.controller.js"></script>
+        <script src="controllers/about.controller.js"></script>
+
     </body>
 </html>
