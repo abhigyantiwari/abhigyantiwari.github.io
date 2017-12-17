@@ -1,3 +1,3 @@
-app.controller('aboutController', ['$scope', 'whichPage', function($scope, $whichPage){
-	$scope.whichPage = "Know me..";
+app.controller('aboutController', ['$scope', function($scope){
+	
 }])

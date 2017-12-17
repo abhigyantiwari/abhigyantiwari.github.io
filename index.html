@@ -5,7 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         <!-- Title changes according the page's respective controller -->
-        <title>{{whichPage}}</title>
+        <title ng-bind="title"></title>
 
         <meta name="description" content="Hello I'm Abhigyan Tiwari, free as wind. Do You Have Web Development Work or A User Interface Design Work?
         I Can Do It For You!">
@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="resources/css/vendor/normalize.css">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="resources/css/styles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body ng-view>
