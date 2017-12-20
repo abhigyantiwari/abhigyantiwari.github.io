@@ -23,20 +23,22 @@ html,body{
     font-size: 13px;
 }
 .link-icon{
-    display: inline;
-    vertical-align: center;
-    width: 30px;
-    height: 30px;
+    float: left;
+    width: 50px;
+    height: 50px;
     background-color: white;
     margin: 4px;
     border-radius: 20px;
     padding: 5px;
 }
-.skill-icon{
-    float: left;
-    height: 40px;
-    margin: 40px;
+
+@media (max-width: 460px){
+    .link-icon{
+    width: 30px;
+    height: 30px;
 }
+}
+
 @media only screen and (max-width:650px){
     .myName{
         font-size: 45px;
