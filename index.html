@@ -1,24 +1,32 @@
 <!doctype html>
 <html class="no-js" lang="en" ng-app="samosa" ng-cloak>
     <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111475004-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-111475004-1');
+        </script>
+
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         <!-- Title changes according the page's respective controller -->
-        <title ng-bind="title"></title>
-
+        <title ng-cloak>{{title}}</title>
         <meta name="description" content="Hello, I'm Abhigyan Tiwari, free as wind. Do You Have Web Development Work or a User Interface Design Work?
         I Can Do It For You!">
         <meta name="keywords" content="Web Developer, Web Application Developer, User Interface Designer in Vadodara, Web Developer in Vadodara,
-            Back-end Developer, Back End, Front End Developer, Freelance Developer in Vadodara, Gujarat, India, C, C++, PHP, MYSQL, AngularJS, Bootstrap, Jquery, Materialize, Developer">
+        Back-end Developer, Back End, Front End Developer, Freelance Developer in Vadodara, Gujarat, India, C, C++, PHP, MYSQL, AngularJS, Bootstrap, Jquery, Materialize, Developer">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- I love Samosa, mo tan anythin -->
         <link rel="icon" href="favicon.ico">
-
+        
         <!-- HTML5 Boilerplate Opinionated CSS -->
         <link rel="stylesheet" href="resources/css/vendor/main.css">
-
         <link href="resources/css/vendor/animate.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="resources/css/vendor/normalize.css">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -29,11 +37,9 @@
     <body ng-view>
 
         <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-
         
-
         <script src="resources/scripts/vendor/angular.min.js"></script>
         <script src="resources/scripts/vendor/angular-route.js"></script>
         <script src="resources/scripts/vendor/modernizr-3.5.0.min.js"></script>
@@ -45,6 +51,5 @@
         <script src="controllers/blog.controller.js"></script>
         <script src="controllers/portfolio.controller.js"></script>
         <script src="controllers/about.controller.js"></script>
-
     </body>
 </html>

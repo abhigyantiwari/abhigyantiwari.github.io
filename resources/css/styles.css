@@ -1,3 +1,7 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
 html,body{
     margin: 0;
     padding: 0;
@@ -19,18 +23,19 @@ html,body{
     font-size: 13px;
 }
 .link-icon{
-    float: left;
-    width: 50px;
-    height: 50px;
+    display: inline;
+    vertical-align: center;
+    width: 30px;
+    height: 30px;
     background-color: white;
-    margin: 5px;
+    margin: 4px;
     border-radius: 20px;
     padding: 5px;
 }
 .skill-icon{
     float: left;
-    height: 50px;
-    margin: 20px;
+    height: 40px;
+    margin: 40px;
 }
 @media only screen and (max-width:650px){
     .myName{
