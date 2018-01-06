@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en" ng-app="samosa" ng-cloak>
+<html class="no-js" lang="en">
     <head>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -15,7 +15,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         <!-- Title changes according the page's respective controller -->
-        <title ng-cloak>{{title}}</title>
+        <title>Abhigyan Tiwari</title>
         <meta name="description" content="Hello, I'm Abhigyan Tiwari, free as wind. Do You Have Web Development Work or a User Interface Design Work?
         I Can Do It For You!">
         <meta name="keywords" content="Web Developer, Web Application Developer, User Interface Designer in Vadodara, Web Developer in Vadodara,
@@ -34,22 +34,53 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="resources/css/styles.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body ng-view>
+    <body>
 
         <!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
         
-        <script src="resources/scripts/vendor/angular.min.js"></script>
-        <script src="resources/scripts/vendor/angular-route.js"></script>
+        <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 dummy-space"></div>
+        <div class="col-sm-12 dummy-space"></div>
+        <div class="col-sm-12 dummy-space"></div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-11">
+            <h1><span class="myName" title="Namaste!">Abhigyan Tiwari</span></h1>
+        </div>
+        <div class="col-sm-12 dummy-space"></div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-11">
+            <p class="label label-info" style="font-size: 14px; font-family: sans-serif;">Web Developer</p>
+            <p class="label label-success" style="font-size: 14px; font-family: sans-serif; margin-left: 15px;">UI Designer</p>
+        </div>
+        <div class="col-sm-12 dummy-space"></div>
+        <div class="col-sm-1"></div>
+        
+        <!-- Navigation -->
+        <div class="col-sm-11">
+            <a href="views/blog.html" class="btn btn-warning" style="border:2px solid #4caf50;background-color:white;color:#424242;">Blog</a>
+            <a href="views/projects.html" class="btn btn-warning" style="border:2px solid #ffeb3b;background-color:white;color:#424242;">Projects</a>
+            <a href="views/about.html" class="btn btn-warning" style="border:2px solid #4dd0e1;background-color:white;color:#424242">About</a>
+        </div>
+        <div class="col-sm-12 dummy-space"></div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-11">
+            <a href="https://www.linkedin.com/in/abhigyantiwari/" target="_blank" title="Link to my LinkedIn Profile"><img src="resources/images/l.png" alt="linkedin profile" class="img-responsive link-icon"></a>
+            <a href="https://github.com/abhigyantiwari" target="_blank" title="Link to my Github Profile"><img src="resources/images/g.png" alt="github profile" class="img-responsive link-icon"></a>
+            <a href="https://www.facebook.com/tiwariabhigyangaurave" target="_blank" title="Link to my Facebook Profile"><img src="resources/images/f.png" alt="facebook profile" class="img-responsive link-icon"></a>
+            <a href="https://www.instagram.com/tiwariabhigyan" target="_blank" title="Link to my Instagram Profile"><img src="resources/images/i.png" alt="instagram profile" class="img-responsive link-icon"></a>
+        </div>
+
+        <!-- Maintainence, Just Comment Out When Not: -->
+        <div class="maintainence label label-warning">Website Under Construction</div>
+    </div>
+</div>
+
         <script src="resources/scripts/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="resources/scripts/vendor/plugins.js"></script>
-        <script src="resources/scripts/app.js"></script>
-        <script src="controllers/home.controller.js"></script>
-        <script src="controllers/blog.controller.js"></script>
-        <script src="controllers/portfolio.controller.js"></script>
-        <script src="controllers/about.controller.js"></script>
     </body>
 </html>
