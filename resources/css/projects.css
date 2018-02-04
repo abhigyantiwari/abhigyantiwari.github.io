@@ -32,7 +32,7 @@ body{
     margin-top: 20px;
 }
 
-.project{
+.project, .project-div{
 	display: inline-block;
 	margin: 0 auto;
 	margin-right: 30px;
