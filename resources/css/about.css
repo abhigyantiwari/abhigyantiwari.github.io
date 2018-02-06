@@ -8,7 +8,29 @@
     padding: 5px;
 }
 
+.progress-bar-danger{
+        background-color: #ff7c7c !important;
+}
 
+.progress-bar-primary{
+        background-color: #77b0ff !important;
+}
+
+.progress-bar-warning{
+    background-color: #f4d566 !important;
+}
+
+.label-primary{
+    background-color: #b7b5b5 !important;
+}
+
+.label-success{
+    background-color: #93e281 !important;
+}
+
+.label-info{
+
+}
 
 @media (max-width: 460px){
     .link-icon{
