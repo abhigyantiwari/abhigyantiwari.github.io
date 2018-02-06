@@ -8,6 +8,10 @@
     padding: 5px;
 }
 
+.progress-bar-success{
+        background-color: #93e281 !important;
+}
+
 .progress-bar-danger{
         background-color: #ff7c7c !important;
 }
