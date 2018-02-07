@@ -1,0 +1,386 @@
+/*AngularJS Flicker Prevention*/
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+/*Import Fonts*/
+
+@font-face{
+    src: url("../fonts/Fjalla_one/FjallaOne-Regular.ttf");
+    font-family: "fjalla";
+}
+@font-face{
+    src: url("../fonts/Pontano_Sans/PontanoSans-Regular.ttf");
+    font-family: "pontano";
+}
+@font-face{
+    src: url("../fonts/Ultra/Ultra-Regular.ttf");
+    font-family: "ultra";
+}
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+input{
+    max-width: 100%;
+}
+
+.network-err{
+    background-color: #e57373;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 1000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/*Main Styling*/
+
+
+body, html, .container-fluid{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.col-sm-4{
+    margin: 10px;
+}
+
+/*Header Template*/
+
+.header{
+    background-color: #00897b;
+    padding:12px;
+    margin: 0px;
+}
+
+.navbar-brand{
+    margin-left: 30px;
+    font-family: "ultra", sans-serif;
+    font-size: 30px; 
+    margin-right: 20px;
+    color: white;
+}
+
+
+
+.home-nav-btn{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.other-nav{
+    position: absolute;
+    top: 40px;
+    right: 40px; 
+}
+.other-nav-links{
+    color: white;
+    font-family: "pontano";
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #6dd3ff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.other-nav-links:hover{
+    transition: 0.3s;
+    text-decoration: none;
+    background-color: #6dd3ff;
+    color: white;
+}
+
+h1.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: -20px;
+    color: white;
+    font-family: "ultra", sans-serif;
+    font-size: 66px;
+}
+.ng-show, .ng-enter{
+    transition: 1s;
+}
+.nav-btns{
+    position: absolute;
+    bottom: 100px;
+    margin-left: -10px;
+    width: 100%;
+}
+.btn{
+    border-radius: 50px;
+}
+button{
+    margin: 5px;
+}
+
+
+/*Animate*/
+
+.animateng.ng-leave, .animateng.ng-enter { 
+    transition: 1s cubic-bezier(0.5, 0.1, 0.25, 1) all;
+}
+.animateng.ng-enter, .animateng.ng-leave.ng-leave-active {
+    opacity: 0;
+    display: block;
+}
+.animateng.ng-leave, .animateng.ng-enter.ng-enter-active {
+    opacity: 1;
+    display: block;
+}
+
+
+/*Hotel Styling*/
+
+.hotel-search-cont{
+    background-image: url("../media/hotel-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.hotel-title{
+    background-color: white;
+    border-radius: 3px;
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 48px;
+    border-radius: 0px;
+    margin-top: 60px !important;
+    font-family: "fjalla", sans-serif;
+    color: grey;
+}
+
+.area-input{
+    margin-top: 60px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: "pontano", sans-serif;
+}
+
+.btn.search{
+    background-color: #ef5350;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.hotel-input-empty{
+    background-color: white;
+}
+
+.hotel-results{
+    padding: 20px;
+}
+.hotel-search-suggest{
+    font-family: 'pontano', sans-serif;
+    font-size: 30px;
+    color: grey;
+}
+
+.place-card{
+    height: auto;
+    width: 200px;
+    box-shadow: 0px 0.5px 16px 0px grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+}
+.place-name{
+    font-family: 'fjalla', sans-serif;
+    font-size: 25px;
+}
+.place-details{
+    font-family: 'pontano',sans-serif;
+    font-size: 20px;
+}
+
+.place-img{
+    max-width: auto;
+    height: 150px;
+}
+
+
+
+/*Attractions Styling*/
+
+.menu{
+    padding: 10px;
+    margin: 20px;
+}
+
+.menu-item{
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: "pontano", sans-serif;
+    color: grey;
+    font-size: 28px;
+    margin: 20px;
+    cursor: pointer;
+}
+.menu-item:hover{
+    padding: 14px;
+}
+
+
+.radio{
+    height: 20px;
+    width: 20px;
+}
+
+.attract-input{
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+    font-family: 'pontano', sans-serif;
+    margin-top: 40px;
+}
+
+
+/*Planner Page Styling*/
+
+
+.planCard{
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+.planner-title{
+    font-family: 'pontano';
+    font-size: 34px;
+    margin: 20px;
+    color: grey;
+}
+.panel-body input{
+    border-radius: 4px;
+    border: 0.5px solid #e0e0e0;
+}
+.panel-body.add-btn{
+    border-radius: 2px;
+}
+
+
+
+/*About Page Styling*/
+
+.about-title, .archi{
+    font-size: 40px;
+    font-family: 'fjalla', sans-serif;
+    color: grey;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.about-cont{
+    margin:10px;
+    font-size: 35px;
+    font-family: 'pontano', sans-serif;
+}
+
+
+/*Contact Page Styling*/
+
+.feedback-sent{
+    font-size: 40px;
+    font-family: "fjalla", sans-serif;
+    margin: 30px;
+}
+.contact.row, .contact-container, .map-container{
+    margin: 0px;
+    padding: 0px;
+}
+.contact.row{
+    height: 100%;
+    width: 100%;
+}
+.map-container{
+    height: 100%;
+}
+.google-map{
+    height: 100%;
+    width: 100%;
+}
+.fa-send-o{
+    color: #00BCD4;
+    font-size: 60px;
+}
+.contact-title-text{
+    font-size: 60px;
+    font-family: 'pontano', sans-serif;
+    color: #212121;
+}
+
+form{
+    padding-top: 50px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+textarea{
+    border: none;
+    background-color: #eceff1;
+    padding: 5px;
+
+}
+.form-horizontal input{
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'pontano', sans-serif;
+}
+
+.contact.btn{
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+/*Background-Video*/
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}

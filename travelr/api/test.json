@@ -1,0 +1,767 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CqQCHQEAAJz7jszPxLLia_3kCKdJfAU09i-lKezzGpzd6LDjMm4neofpVKapcxfXG49FCrNG9UMXdJQWwkoSuLrFuPvpONZdNGjbNd8jtM1IsW54Af5ESN6Ckcel66DmMLYc-bHVX375ZyBYfY_XdDYzjrqLUtSL4AV5yzr8FFUVligY8Ioofn6VcEWIdrXGZamAKMi8fWnjd5MO_nzzA4pVe9Prp4yDMuySzUGDQ8V33J6Vm2YFIlLE9SkhEbE_rB5-_MhsOJGzys-maGQyd2C43TgbdwsCHOWyTg04ZYwrleaToJUApCHUSIHm7pMKbYWGg2IQ2_Mp8kD_BfZH_6b8utgFudl9aHVC1m_OlFhebCCtmM43mIQojpjc9jVC3y4Y969gOBIQhOsza0-1ji5J8XxzZLJ4txoUodP0_NNXE_T9oQKAa_L761LzoH8",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.306973,
+               "lng" : 73.18286599999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3083142302915,
+                  "lng" : 73.18428043029149
+               },
+               "southwest" : {
+                  "lat" : 22.3056162697085,
+                  "lng" : 73.18158246970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "29c11c6ba99da6d99e837be8305f3d29b4071a31",
+         "name" : "Hotel Planet Vadodara",
+         "photos" : [
+            {
+               "height" : 2048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100705360548909717336/photos\"\u003eHotel Planet Vadodara\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAyB6-7UMvM4douylGVmaU5PgvuwmNGrA0pww3t9A5_svFBPyMwGIwrJMhsrzepMJFK8zOFLSKp8bdaRB7Ahw2ZMK-PSJ79IMcBzANP4hjS7c_kuM787C036VZ-C4DLH6FEhDfhod1AdOzugT7_qFzcKwIGhTUDkk7lSGgS1GmlWVVqE2IdOQ4ew",
+               "width" : 1365
+            }
+         ],
+         "place_id" : "ChIJkVi7_KzIXzkRCgiscQoTPaQ",
+         "rating" : 4,
+         "reference" : "CmRSAAAAbgDGKFOltsisvZeXUvE9r7jnZ_0Eg1D4VLMpQeQbqtI9uxsvVeIvqKzZ4jL3IKk-QrLB-XSP6PlZq2H_91IRyKz9Z_9XBIOqfJgwoWUELTmTUfxVXlp9p1HETduVVzKvEhBPbKfCHFlGZTN35BC1CcdWGhQU003ygvA-UYC_Pqfi5jHIEGCyXg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Jetalpur Bridge, Parshuram Nagar, Jetalpur, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.308803,
+               "lng" : 73.1827399
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3101519802915,
+                  "lng" : 73.18408888029151
+               },
+               "southwest" : {
+                  "lat" : 22.3074540197085,
+                  "lng" : 73.18139091970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "e1d6bfe9ddabbc1f5cd953d1b2df92e4c957e151",
+         "name" : "Hotel Ambassador Sweet Mart",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111834492735221865835/photos\"\u003eThe Jimmy Nation\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAa-UPllIc4hsx0XbBDqaXjCq9U7xj7pkoaXhufApyojv-rPOwi8yM4UdrWXOoS7rsvFsq1Xe22Hh1Q0fyUaz-IMQfjzQSY8NRkfv6SJiKLK4Nb9gWHSCDZX8t_rBAgE4MEhDBLEyGslYexmipZIaJkq76GhTLFX-3mnxSPIu4DFtjRaFi4QGSCw",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJKVQN0FLPXzkRq8pah5o2n-E",
+         "rating" : 4.4,
+         "reference" : "CmRSAAAAM2yUzzYMva_azGPNUOXqkw_NKaouLbclgK2vDC_E2h3KPnXfOEeDXALRnflYhlvHVuhThPRRqEHHTT78O6dIzDq8PjXK9f7TfJrdMqAOf_n194YVAj0E_KlXQgTJBj-MEhAtKlluMIqNfUoo4vcu3iZmGhQvuwycIA6Xsd__3cQYpe8K0TGnsg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "food", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "Near Railway Station ,Below Hotel Ambassador, Sayajiganj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.308662,
+               "lng" : 73.18324699999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3100109802915,
+                  "lng" : 73.18459598029149
+               },
+               "southwest" : {
+                  "lat" : 22.3073130197085,
+                  "lng" : 73.18189801970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "4b73069045bcbb1f4a359f86528d22c1407e1edb",
+         "name" : "Hotel Vikram",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1152,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118191686701072104719/photos\"\u003eHotel Vikram\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA8MaBfGr1szfX3xGPkgnlkC9ZibsEnufmIv2-N0B00pY1oQxsz6ZArBMXPLwjCcOQMk-yxCYDJTEj5dflnHIvyEyy5PldZkNJm-bGFtQQYFt-TA9B9CmsN-bPDapV68H5EhCA13vMUXGsOqx3X6rNHolnGhRJ4uvYAEGCXazP-pmImlyit8UeAg",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJyXy6rlLPXzkR_5NZkBxXPOc",
+         "rating" : 5,
+         "reference" : "CmRSAAAA-DtNGiVnTIdAwGjr5OaLAAswqnMSFTBSrm5Y1y4Eg_8lyUMOQzgexOiYQZCgDHeJFw5HNSU5PzKxu0y49mAxzlP9o9lgKRZJaWlHanqPFlqH8d4fZ_zZnpv0NagLmdjXEhAqgDMpqk2D_Gy6cgt0ySHmGhQ6rMOGtMgDoroM3JEV5LvOPvzMoQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Behind Hotel Surya, Nr. Sayajigunj Police Station, Sayajigunj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.309205,
+               "lng" : 73.18340999999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3105539802915,
+                  "lng" : 73.18475898029151
+               },
+               "southwest" : {
+                  "lat" : 22.3078560197085,
+                  "lng" : 73.1820610197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "98f52520d8c8c9f0a8bd44663a13c6051b809823",
+         "name" : "Hotel Som Galaxy",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 252,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103844060346326410918/photos\"\u003eHotel Som Galaxy\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA_95h0iLN6EjVwbisLedJU4zeZdcKwAFny6MA_7-n91D2ga9u1WQ6_sAyNDBhbQD108g5T__xljd0031S8uug5UpI3jHPMI7OrOQ449U94eeYXvUfNiHD4xpfK8tAfPVCEhCB2yAIYkpyMGnXLgyWjVyxGhQ99hsd8TTAIHzchuz9ERyVLXqggQ",
+               "width" : 252
+            }
+         ],
+         "place_id" : "ChIJO3S79FLPXzkRY0-HN5K-lK8",
+         "rating" : 1,
+         "reference" : "CmRSAAAAAJChRbK6VH4CIaOOswoGJ2c511CAyaZaxSU1xhOLylFrJOMDl9vH0H99l3ovjSb8CqxlV2bQV4HGWLa4a6eL2uQduVqmPxNjXH-HWs1aSGPG5jpAy-7MlgPrccoF4DaREhA1ft55V0wXmfJ1pj7ca6F3GhRh235IvMuQpp6-rVRjhY9W8HCVGQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Aurobindo Ghosh Rd, Station Road, Near Jagdish Hindu Lodge, Opposite Hotel Vikram, Sayajiganj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3089373,
+               "lng" : 73.1835466
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.31028628029151,
+                  "lng" : 73.18489558029151
+               },
+               "southwest" : {
+                  "lat" : 22.3075883197085,
+                  "lng" : 73.1821976197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "8f373ec72e593829e3a0fe589fba160d7fbd7b1c",
+         "name" : "Maharaja Hotel",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1518,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111222513209259637895/photos\"\u003eMaharaja Hotel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAYztzvLfmR70lWh5ep1ox95_YheTQZZekCEAEfMe_F-BK49pRE1_VxQejoWHee8bANucj8MFNVM3F6CbCcSeEY3KDKeV_VHuN-gSVhEqbrPXj3x9rHZ48p7Udk5Ziitg1EhBwwA-kI85l9-CGNYpPEdrxGhRLTcKlZfTnMdzZZLBnqmcbQCc-3g",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJGXzKwVLPXzkRGCTgZB6EDzg",
+         "rating" : 4,
+         "reference" : "CmRRAAAA_cAPcTnlGHMa33ztbUG-x5Q9YXXM_H74V68FSHZRyEHUMWOAYtdIXQGi73LjeRUgSTtEPW_vWbNohCpyWUo_9qQ1ukjuJKBMaMfUA4AHvS2VKd_z21l9qNv4XJDbz3MZEhBi2pU5fS3dsZB4yJ2yJ2LJGhRkqZu-yxA3TBCMgQ_uK9FSIBx1Vg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Sayajigunj, Near Railway Station, Opposite Sayajigunj Police Chowki, B/H, Hotel Surya, Sayajigunj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3074459,
+               "lng" : 73.1827624
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3088052802915,
+                  "lng" : 73.1841287302915
+               },
+               "southwest" : {
+                  "lat" : 22.3061073197085,
+                  "lng" : 73.18143076970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "52da71dc27465c4c40df93982a3eceb307beeca1",
+         "name" : "Hotel ORCHID DORMITORY",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101850071546164136223/photos\"\u003efarid khan\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAApM-16ViS7aKw7k2Nda71NyxnekTImaCMTFqBO4rTTyZvHw0pK0WNlzc6Bp5RKKnP_8509YnrFhVZlx1t3hICw30r1Uy37MhVeea6xB9bc7QRNi62LlRDJ3B63JUfsQrEhDl7-5iYem-bx3jhvspvxhUGhROXTiNOc6QFW5HYP1q83Q60XHTsA",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJEQFaKFPPXzkRbaU_i5_VQig",
+         "rating" : 3.8,
+         "reference" : "CmRRAAAAf_3NSqyBRC-_jHbYuX9iZpMBwSbQg2AZu_MIynR7Aav0IxthqXagVNZbeYVwpytq9Tpv-5pkNAIUN3zqD0h6ZVByKFbwMcUmpfsAVjWBFUyXESuYxvh2sg0krcmMlgcREhA83Q58Q7OZceirmBB2r0o-GhSHfeqabRnBVRA3f3lFnyawhsDbnA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "1st floor vasant kutir apartment, 25, Hotel Surya Lane, Pawan Park Society, Sarod, Sayajiganj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.308144,
+               "lng" : 73.18274700000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3094929802915,
+                  "lng" : 73.1840959802915
+               },
+               "southwest" : {
+                  "lat" : 22.3067950197085,
+                  "lng" : 73.1813980197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "d70e8e201a0d7b004c4125a0ef93c12d8bffa4f4",
+         "name" : "OYO 1295 Hotel Marigold",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJHSZW0FLPXzkRF7c5ZnKDILE",
+         "reference" : "CmRSAAAAU93EGX9ysCUshcUwSlnC5kERoXEDgOwqOU_Py78lOb29duk9nicgi8wEbWJw3EUbKbWVKHgDP_ersn1JI52YJ-vc86fy2goa-yHwI-NqVoq33SfUV_GskYHV1NQCJBehEhBX784Vg0UHKk-kz4w6RhSZGhSlDG486DKeMhZ9XhF4HLINPjCJLQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Surya Hotel Lane, Next to Jalsagar Hotel Opposite B.B.C. Tower, Dak Bunglaw, Sayajiganj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.308776,
+               "lng" : 73.1830677
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3101249802915,
+                  "lng" : 73.18441668029149
+               },
+               "southwest" : {
+                  "lat" : 22.3074270197085,
+                  "lng" : 73.18171871970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "79d1dd5bc6a03c449b08b9a7fb845398da600978",
+         "name" : "OYO 9677 Hotel Surya",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJcaFjxlLPXzkRN03NbBt8MrA",
+         "reference" : "CmRSAAAAOm092mQ0IVTWxbm2E6EOBxbcz_cfU8ReaZE_yvuTx3HwJSwyJfrl6VcJjol2TFspmwcfdcwtnopIK0AjoA9z9n6DmQfo48ufJVMCsrHCWL6uOGM5xVg3AwjQ4AWW7dAdEhDW7bcGHJyMJMkyjXnJsrI3GhR4ljuDFnYnqaGKilE9d_RyQQr7bQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Hotel Surya, Sayajigunj, Vadodara, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3095918,
+               "lng" : 73.1770801
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3109407802915,
+                  "lng" : 73.17842908029149
+               },
+               "southwest" : {
+                  "lat" : 22.3082428197085,
+                  "lng" : 73.17573111970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "3968534d8981bf181a747c0817eb7a78e6c81108",
+         "name" : "Panchsheel Hotel",
+         "photos" : [
+            {
+               "height" : 2340,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108279076401015399259/photos\"\u003eGovind Makwana\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAdqzn42W1BW7yC4jxvBPDO5bakZTWnhkuxFKEkRXO87GDBi4z_a4Sgc0_iGp1QqcTczA3mggegbTZfz0f-HUR1QFzOdzURQhCAc2P_A-tMFJCJ7PXYdSC3asBcev9TtayEhD9fCdpju2E-bMIpc3AoyomGhQ7CKP7abBCZ_nhdLk_Dxdq5mJyHg",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJmddG963IXzkRGwbAsvyL_Rg",
+         "rating" : 3.2,
+         "reference" : "CmRRAAAAluuzUJUTaEb7NoiwwgmaE_C6hDHRG0p-2M6P3nrN7O0XIBbuIUMixfAbg5OkXhK1wVYApu24EOq-ufwRd0aDfMG9TsmzDiwp3OFOQcO2QS3KKiHc-TbJfjwECUWxSnktEhAHs4nwCX4JV2mRr3_tceO5GhS4KJKauPcezCZ-_7wCITdTL8Ny_Q",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "103B, Jetalpur, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3092005,
+               "lng" : 73.1848
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3105494802915,
+                  "lng" : 73.18614898029151
+               },
+               "southwest" : {
+                  "lat" : 22.3078515197085,
+                  "lng" : 73.1834510197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "d4119848ce9526a4f79ecc1c3d4e7be9d3030519",
+         "name" : "Zip By Spree HOTEL",
+         "photos" : [
+            {
+               "height" : 1229,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115218299222526275948/photos\"\u003eZip By Spree HOTEL\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAxvgSwIlll6jx4RJLGZ-Raj9JVjtPe0e3Sk8TcOQERnP3Wo7jiOHj6IqWdFX7RcfFfugaBIidfPLs6IYLnhBW2EN3RZYioNEZippcgPK7jRV-ZDrLBXAdzDiDCcIpCuc5EhCA2pEBbe8vbbsqM3znKk1jGhSNPbdekCZ8DaBiU-LALq0cBUxxug",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJm0C_wFLPXzkR0vagIGS_vwI",
+         "rating" : 5,
+         "reference" : "CmRRAAAAbhtJ6u72sFIHVUOaGXH6eQw1PVfgFzGCUtqIo_C5L1Ztj5hJarPFLDwbZS-B2siJEYBOasfIsuHx301brqrESdzEzi4xijIu9R5-0brYtz2oX4bQlwno-lIlR3E4MyEUEhA0R6TcZa6hAwQULMA7FdBYGhQ8VowaIbW9NH4A85qWm3dYC1_5Rg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Opposite Sayajigunj petrol pump,, Sayajigunj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3083231,
+               "lng" : 73.1799815
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3096720802915,
+                  "lng" : 73.18133048029149
+               },
+               "southwest" : {
+                  "lat" : 22.3069741197085,
+                  "lng" : 73.17863251970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "18b48746cf8885f30a6f496efaf610c430c38aad",
+         "name" : "Hotel Sapna",
+         "photos" : [
+            {
+               "height" : 2560,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106366644697814142556/photos\"\u003eकरीम लाला आरीसर\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAwcFKSr0LS8vdMXftL-JObBBLc4kvi1BWuhES4eLxj8swk2WVgqnQGo0KKbtbv0MSYDBgIy2Wm4OUBPHjwG0GZic12o9ZlmrUGJulZ-YIytn959UDUoOU4JTXHdNgnDjOEhBWPhxGOzrOidyoB4hsBcYCGhSfnKhYbHSIZ1l_47HKhyJHaLaN1g",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJFZlwCa3IXzkRZ4qnjCDzY74",
+         "rating" : 5,
+         "reference" : "CmRSAAAAVzPfL5iaMBu4nJw81PJmGM_PZRaG_-2EYdLHF-lWBblh7zt_aSBIMMLt6N73ytwGZQqb_FJ6RFGTeC_5DF99h09bp62LgLSqlw3Acu-w4biHXXjs15Xp7guHz-YpPzBFEhCw836oYPXQ3zcVBAvcuKOiGhS2KRRCOtRKwBhMMubXGWryqDQR3w",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "6th Floor, Akota Rd, Jetalpur Road, Behind Railway Station, Sampatrao Colony, Jetalpur, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3094823,
+               "lng" : 73.1828465
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3108221302915,
+                  "lng" : 73.18426678029151
+               },
+               "southwest" : {
+                  "lat" : 22.3081241697085,
+                  "lng" : 73.1815688197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "de2975bee57b2f4b2afe84834f8a5811841acc2d",
+         "name" : "Hotel Repose",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 866,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109737722822062359768/photos\"\u003eHotel Repose\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA5kfigKF9OaD3cfOZl5BN3bcKLxHL0Z2X7SznVgefZFIXE51HFeKtUFt4Y1CFTswJJ4LFRHStAPy1g_vsDfCbKQHWBdrsgVCMu86FyIV-8DXOXN4_WnZ2bGEc8JoSHk3GEhCb7qq_6nmkdtOeNvQ2B8jpGhRq7cducl35YzxdBG9Fd1gBJAwPDg",
+               "width" : 868
+            }
+         ],
+         "place_id" : "ChIJO3S79FLPXzkRw1pkVILzzsc",
+         "rating" : 3.4,
+         "reference" : "CmRSAAAAFAKiyjDT0VtbZK0R8cbGPv2Mx_9dnd8RP4NSxpheuv9ruHFZ_wFSO38Uy2jWv6J36DhNAxS5eQjRyBRAfssUNb7f7uY1QQIUvWeXoxC93oA2wsJJj2cm_UhOl3rN_jx8EhCsNkQiRDZDREpzFJBeImRyGhTA4OtfRJLgFkgI5-RHAqMj7LPaiQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "5th Floor, Nautillus Building, Aurobindo Ghosh Road, Raj Trade Center, Sayajiganj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3094693,
+               "lng" : 73.18286359999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3108182802915,
+                  "lng" : 73.18421258029149
+               },
+               "southwest" : {
+                  "lat" : 22.3081203197085,
+                  "lng" : 73.18151461970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "f07283591703c3e71f9ba68238d3ccc6e7deb6d4",
+         "name" : "Hotel Crystal",
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117587458145453679615/photos\"\u003eSuryA ShaN INTJ\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAmcL29-nGkt51fhJjAy41RSc9cXL-4r45yitAIL0-vZam4sxtvG_OndocwpBOPo4IXLCQ16smDi52geUHVlF-zu1tZjGEsVGwnAomQ_JUVvVUS0HP0lMnj-kBBvRaTGmJEhBl-otZUsILRPuHeSyo4zDlGhTujU3ThKPuiGwJoinRGp5NmrhrEQ",
+               "width" : 3120
+            }
+         ],
+         "place_id" : "ChIJXX1at1LPXzkRWjD5dLnQ_1c",
+         "rating" : 3.6,
+         "reference" : "CmRRAAAAUl7OupvSKyUN4pQxlnqlhxXHUNKdCeLeNWBN7xTm11TEGWp-4JhSbY82tIflPMjgRe222RiJffocTJPpUK-j7VrPyZjEx3vLEsJAb_YDibx1d52PrtqxZ4-PRBdOFy72EhDK449ATdXcbOPmkuG94I8lGhSTuBl2cqqFcjEHv75goU3tiELHGA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "1st Floor, Nautillus Building, GF-1-2, Aurobindo Ghosh Road, Raj Trade Center, Sayajiganj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.30620489999999,
+               "lng" : 73.17966609999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3075538802915,
+                  "lng" : 73.1810150802915
+               },
+               "southwest" : {
+                  "lat" : 22.30485591970849,
+                  "lng" : 73.17831711970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "d1894ff17e8df65c0a22fa0d8119d08e975098c4",
+         "name" : "Hotel Bansal",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108916809303354161099/photos\"\u003eNayagan naan\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAOclsVmOYAtq7OyDjbdT_BSC2RedqyjuNt6QZVrIIlqi34cVqnJFCVI3d9ifJZFEehJxy74GTXi1kHthAQGUSozYOrw1lf3RLdd1qcEXU5qxb9JR7uZKAPH4t8cyBbHM6EhBjx9pj8w7rhT5fKOjx8Zi9GhRqI0eXhndgEaE0QLSGWTph2-F4dQ",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJ_a-cDq3IXzkRLpCn2R6qscU",
+         "rating" : 4.3,
+         "reference" : "CmRSAAAArV1N1lM2pake4XXe2f-bbMfPwrPSG9hIzhoyXI5P19n9_Z1AVpa6-XIAj5tl1vGTuUL-TQfXmbp3vFfBHf2j7DE_9KjhfnRPtSPVguEh9Ukl_B4Qwn9FbZ2dTGxEzCCpEhC_pbXMmPi1KKGz3d7iLzD8GhSAGEszP5qD81yZRFyt_lGfosFl0g",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "B/h.Railway Station,Nr.Lalita Tower, Alkapuri, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3072245,
+               "lng" : 73.1779219
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3086164802915,
+                  "lng" : 73.17927468029151
+               },
+               "southwest" : {
+                  "lat" : 22.3059185197085,
+                  "lng" : 73.17657671970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "2b1eac269e45d75c836533a25cdd04dbc02e2ec6",
+         "name" : "Hotel Skylab",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJ5S1zta3IXzkRqH7BIuwIGA8",
+         "rating" : 2.7,
+         "reference" : "CmRRAAAAZM1HXyQuTlrjFt0umFik_-D3SC5hf_4UCwJIroo-n8n9Ax7VklCBL9TSODwWjPRpKFfja_1_pgQ8-QfgGSpI4NH2YHTjIs711jfZm8rLssDYqNY4YD1C5sDKrDmmTU43EhAtckghgY7yUcr3U6kr03fyGhSM1wuBLAZzGeqjoELSgYKQzKaPxg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "11, Productivity Road, Shree Niketan Society, Jetalpur, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3083277,
+               "lng" : 73.18255239999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.30967668029151,
+                  "lng" : 73.1839013802915
+               },
+               "southwest" : {
+                  "lat" : 22.3069787197085,
+                  "lng" : 73.1812034197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "ac19e0e76007a4af7b4121abe34715aa5876455d",
+         "name" : "Hotel Rahi Inn",
+         "photos" : [
+            {
+               "height" : 768,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103852274250490618445/photos\"\u003eHotel Rahi Inn\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAdVGTPkn7JIBE8iHIWdMDxU0zAg3gWg0_oH87amDwUgCP5qK5saFWjTpD7hoU6kHNiRNqAzW3Phh-VIRi6JIFkvDCTJUnZUdqmL1BpK0MurCD9kw_yzdovtbsuUIk9zz6EhArNKAw5PACgT9Oh4VUpC8HGhRZjxlcEK1E9GB-PCR9uH1sdRX8EA",
+               "width" : 549
+            }
+         ],
+         "place_id" : "ChIJ64cgzlLPXzkRYESeRhRG_Fk",
+         "rating" : 3.3,
+         "reference" : "CmRRAAAAZSfApnNGmNfClcbn7scxctqgbC3rKFdm1DN-4zVIVH6nHM71ozLiyuilcN_9iK1C8VgAEzxdFSUhnAjDjtTlYcjLfQaaki_LFOiOb5LlcplNINGCFg6AVhbd0YKcnXXMEhDOK2GqxYSLJo3Juxkm2i5CGhSeMoihg_YaBrpGDB67kmJ4j1Gm6A",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Opposite B.B.C Tower, Sayajiganj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.309047,
+               "lng" : 73.184749
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3103959802915,
+                  "lng" : 73.18609798029151
+               },
+               "southwest" : {
+                  "lat" : 22.3076980197085,
+                  "lng" : 73.1834000197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "e406dcd98b2c3d3f7a270708387c3302f0a63fd7",
+         "name" : "HOTEL APEX INTERNATIONAL",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108922176709974968139/photos\"\u003eVeenit Panchal\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAALSxJJEN_-u-a8VJoATt18W_8G8Sw7cQ0kIQYJ4Bn3LpbqKfSsbS0w2eNLpti9muqZe7CXTFxDsxZFBP04FR-lCv7QI4anUC-txtxGUdZvEtrKsSVmD2h76aoyoMnODG0EhDami3aRXrltvbWJsecOBKOGhQcoonhq1_02ZAZjVK-A7vPOtlPkQ",
+               "width" : 3120
+            }
+         ],
+         "place_id" : "ChIJ-5J49FLPXzkRGlcf2A6ArY0",
+         "rating" : 3.6,
+         "reference" : "CmRSAAAAAQ921pAXHIEMmniJWuk2bbL4fQlUYbVCDs-p8rAI95SYiEg1tyhFXCKIGry0AV6cg0iHn9CK6Bb9flcTQiygsqtkOkJKDxLGOsau5J_dgVAO2tCFFro58N4fjGEIoD8YEhDEVB5exuU-F37owkNJTVdwGhSHwSuYeMHN92OMBZEoLrOB5EipeQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Near Sardar Statue,, Opposite M.S.U, Sayajigunj, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.31094079999999,
+               "lng" : 73.1794666
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3122897802915,
+                  "lng" : 73.18081558029151
+               },
+               "southwest" : {
+                  "lat" : 22.30959181970849,
+                  "lng" : 73.1781176197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "bd81a37ab92db3a268f20870a3122326405eb545",
+         "name" : "Hotel Harmony",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1229,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108354762454573098904/photos\"\u003eHotel Harmony\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAk-N1AnIQazH17SSV4Q5TqdoBtkXA0QFc-81FkLGt03rGXYD_0N-EFYxuda5_MZvWJPvYngv9KlJA3c1uKOr17TWe2mzg1-F_tzGDrRIFX1qWaz1BFUgah9JXMhmOCAFLEhBZ_5e53nYVvcmRMkBIIiptGhTE-zqhoAfxFZU5eS8DflG-dp67eg",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJk2Uv17PIXzkR-XQJd_PYBAk",
+         "rating" : 4.2,
+         "reference" : "CmRRAAAAJbbiLLSNnVVe1A8bMQ9V11drSsACZnGPtKZ4ZczR_Un_7yNhyQzhk0B4evqlBHrRTE9KHOjju618nTQznyUAla3tq3cEeQENq3LBCn38M64u3UsJW4hrgZcsNiPsTsd_EhAIZuStntYRZ3cwjls5mHHfGhRuYZqM1u5uVwfrWZeatmWwo1GZpA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Shree Siddhivinayak Complex,, Opp. Railway Booking Office, Faramji Road, Alkapuri, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3078234,
+               "lng" : 73.1761001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3091723802915,
+                  "lng" : 73.17744908029151
+               },
+               "southwest" : {
+                  "lat" : 22.3064744197085,
+                  "lng" : 73.17475111970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "86996249348059b0bd3ea89a8e80064c3434cc51",
+         "name" : "Hotel Sunrise",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 716,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116721838605134674879/photos\"\u003eHotel Sunrise\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAfiLmO8Ley14caB7O-MrR2DBeiDAFg067VLx2HpsrQvmWUp4OCtAFbEsVsM_57hbTK8WutzyFR8ZWxUQkqjMeiE6oKeTAT3Yj01BuUbsYjX61Qcv8MQE8UgihkotIe5ybEhCGapzXDqeTB9O3lrFrYeenGhTmwJhfYaSxLViEVX21WYmC2161Ew",
+               "width" : 716
+            }
+         ],
+         "place_id" : "ChIJYe4Jdq7IXzkRK82WY2Hsa-U",
+         "rating" : 3.2,
+         "reference" : "CmRSAAAAmB5nTJQi8bsu3g2_63hnH1Oy2nhTZ6tE8TO2K_1C9mLIT8GQKwu73x--peq8vc06NUB8qBsE_6cs-AIXRNql5DZjuBEwTD0T9hMDJlU4IKkMuNdk7Xszbte-r7PFwsRjEhAF9zicRVeikTT0nVRLR3W0GhTPbGLYMJnH3BUJQr1Csw3XQRHztw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "5, RC Dutt Road, Sampatrao Colony, Alkapuri, Vadodara"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3094531,
+               "lng" : 73.1827936
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3108020802915,
+                  "lng" : 73.18414258029151
+               },
+               "southwest" : {
+                  "lat" : 22.3081041197085,
+                  "lng" : 73.1814446197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "ed31b4a9b1642f59bcc33c9cc8fdf5cb0d0dea79",
+         "name" : "Hotel Amber",
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100993900245502159761/photos\"\u003eSupreeetha B\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAtCdFPN8Jghe3STVHrlK35ZI5ZFttaxrH0DHCvFE4pDWmB__eHgaMwutkl4d0PgRHNTtzwONoJKETUbwSsIHia1xZcrWHjkv-AfPrS3z3zWgaT8awGTJlr4zGHJGY_xxWEhDzl5mxzs-bsdlnBLC4w1SDGhTtU7zKjaWNZvXmdiBrNVWj_1zkbA",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJz2hTt1LPXzkRerlYeXSJPh4",
+         "rating" : 3.9,
+         "reference" : "CmRRAAAA3foEM5EhBaGEoKfG1WWZn1gbRCJeIWfeadPXwHgJ94-8X9JWFhohc82aVHABj_6V2eKsalT8MFm5KJAz09sRxS0b4vKhCtkZQ3U7WZJ0ONmxl4IhLw3s0n02VSFAp3igEhBU8KxoWfCqdchZbZXBQY77GhRW4pw_zpz3Vvo5CYRvQcbL67oBDg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "3rd Floor, Nautillurs Building, UNIQE TRADE CENTER, Sayajigunj, Vadodara"
+      }
+   ],
+   "status" : "OK"
+}

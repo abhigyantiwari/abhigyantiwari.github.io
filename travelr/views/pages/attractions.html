@@ -1,0 +1,50 @@
+<div class="network-err text-left">
+	Internet Connection Problem
+</div>
+<ng-include src="'views/templates/header.html'" scope="" onload=""></ng-include>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<br>
+			<h1 class="alert alert-success">Choose a Place & Search</h1>
+			<br>
+			<div class="menu">
+				<div class="attract-err text-danger"></div>
+				<label class="menu-item">
+					<input type="radio" name="amusement_park" class="radio" value="amusement_park" ng-model="attraction"><i class="text-success fa fa-tree fa-lg"></i> Amusement Park
+				</label>
+				<label class="menu-item">
+					<input type="radio" name="aquarium" class="radio" value="aquarium" ng-model="attraction"><i class="text-info fa fa-hand-lizard-o fa-lg"></i> Aquarium
+				</label>
+				<label class="menu-item">
+					<input type="radio" name="zoo" class="radio" value="zoo" ng-model="attraction"><i class="text-warning fa fa-paw fa-lg"></i> Zoo
+				</label>
+				<label class="menu-item">
+					<input type="radio" name="cafe" class="radio" value="cafe" ng-model="attraction"><i class="text-danger fa fa-coffee fa-lg"></i> Cafe
+				</label>
+			</div>
+			<input type="text" class="attract-input" placeholder="Enter place, city or state name" ng-model="attractionInput">
+			<button class="btn btn-success" ng-click="searchAttraction(attraction, attractionInput)"><i class="fa fa-search fa-lg"></i>&nbsp Find</button>
+		</div>
+		<div class="col-sm-12 text-center">
+			<i class="fa fa-spinner fa-spin fa-3x"></i>
+			<div class="place-card" ng-repeat="results in attractions.results" id="results">
+				<div class="place-name">
+					{{results.name}}
+				</div>
+				<div class="place-img"> 
+					<img src="api/photo.api.php?photoRef={{results.photos[0].photo_reference}}" alt="Sorry photo not Available" class="img-responsive place-img">
+				</div>
+				<hr>
+				<div class="place-details">
+					<span class="label label-warning">Ratings:<span class="fa fa-star fa-lg"></span> {{checkRating(results.rating)}}</span>
+					<br>
+					<span class="label label-success">Addresss</span>
+					<br>{{results.vicinity}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
