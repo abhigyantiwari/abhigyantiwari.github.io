@@ -17,6 +17,7 @@ body{background-image : url('../images/home-bg.jpg'); background-attachment: fix
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  z-index: -1;
 }
 
 
