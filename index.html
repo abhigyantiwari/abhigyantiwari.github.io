@@ -45,6 +45,12 @@
     </head>
     <body>
 
+        <div id="blackparticle"></div>
+        <script src="resources/scripts/vendor/particles.min.js"></script>
+        <script>
+            particlesJS.load('blackparticle', 'resources/scripts/vendor/blackparticle.json');
+        </script>
+
         <!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -61,16 +67,16 @@
         <div class="col-sm-12 dummy-space"></div>
         <div class="col-sm-1"></div>
         <div class="col-sm-11">
-            <p class="label label-info" style="font-size: 14px; font-family: sans-serif;">Software Developer</p>
+            <p class="label label-primary" style="font-size: 14px; font-family: sans-serif;">Web Developer</p>
         </div>
         <div class="col-sm-12 dummy-space"></div>
         <div class="col-sm-1"></div>
         
         <!-- Navigation -->
         <div class="col-sm-11">
-            <a href="views/blog.html" class="btn btn-warning animated infinite pulse" style="border:2px solid #4caf50;background-color:white;color:#424242;">Blog</a>
-            <a href="views/projects.html" class="btn btn-warning animated infinite pulse" style="border:2px solid #ffeb3b;background-color:white;color:#424242;">Projects</a>
-            <a href="views/about.html" class="btn btn-warning animated infinite pulse" style="border:2px solid #4dd0e1;background-color:white;color:#424242">About</a>
+            <a href="views/blog.html" class="btn btn-info nv" >Blog</a>
+            <a href="views/projects.html" class="btn btn-danger nv" >Projects</a>
+            <a href="views/about.html" class="btn btn-success nv" >About</a>
         </div>
         <div class="col-sm-12 dummy-space"></div>
         <div class="col-sm-1"></div>
@@ -86,9 +92,10 @@
     </div>
 </div>
 
-        <script src="resources/scripts/vendor/modernizr-3.5.0.min.js"></script>
+        <!-- <script src="resources/scripts/vendor/modernizr-3.5.0.min.js"></script> -->
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="resources/scripts/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="resources/scripts/main.js"></script>
         <script src="resources/scripts/vendor/plugins.js"></script>
     </body>
 </html>
