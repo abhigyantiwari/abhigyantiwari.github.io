@@ -1,7 +1,7 @@
-var app = angular.module("travelr", ["ngRoute", "ngAnimate", "ngSanitize"]).config(function($routeProvider) {
+var app = angular.module("travelr", ["ngRoute", "ngAnimate", "ngSanitize"]).config(function($routeProvider, $locationProvider) {
 
 //Routes Confugaration
-
+    $locationProvider.html5Mode(true);
 	$routeProvider.when("/", {controller: "HomeController", templateUrl: "views/pages/home.html"}).
 
 	when("/about", {controller: "AboutController", templateUrl: "views/pages/about.html"}).
