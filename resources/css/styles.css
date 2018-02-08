@@ -30,6 +30,7 @@ body{background-image : url('../images/home-bg.jpg'); background-attachment: fix
     font-family: 'Nunito', sans-serif;
     border-bottom: 1px solid white;
 }
+
 .maintainence{
     position: absolute;
     bottom: 20px;

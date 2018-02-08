@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111475004-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-111475004-1');
+        </script>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8213440250297123",
+        enable_page_level_ads: true
+        });
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!-- Title changes according the page's respective controller -->
+        <title>What are APIs, how do they work with example</title>
+        <meta name="author" content="Abhigyan Tiwari">
+        <meta name="description" content="This article explains how do API work. I also have used Google Place search API example.">
+        <meta name="keywords" content="API, Working of API, What is API, How API works, How APIs work, API example, Google Maps API example, Google Place search API example, API explained, Easy API explaination, API definition, API meaning">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- I love Samosa, mo tan anythin -->
+        <link rel="icon" href="../../favicon.ico">
+        
+        <!-- HTML5 Boilerplate Opinionated CSS -->
+        <link rel="stylesheet" href="../../resources/css/vendor/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+        <link rel="stylesheet" href="../../resources/css/vendor/normalize.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <<link href="https://fonts.googleapis.com/css?family=Merriweather|Questrial" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="../../resources/css/blog.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet"
+            href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+            <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        </head>
+        <body>
+            
+            <div class="container">
+                <div class="row">
+                    <!-- Blog Nav -->
+                    <div class="col-sm-12 text-right blog-nav">
+                        <a href="../../index.html" class="nav-link">Home</a>
+                        <a href="../blog.html" class="nav-link">Blog</a>
+                        <a href="../projects.html" class="nav-link">Projects</a>
+                        <a href="../about.html"  class="nav-link">About</a>
+                    </div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <div class="text-left blog-frag">
+                            <h1 class="blog-title">What are APIs, how do they work with example</h1>
+                            <i class="blog-date">
+                            <i class="fa fa-calendar fa-lg"></i>
+                            Wednesday 7 February 2018</i>
+                            <div class="blog-body">
+                                <img src="../../resources/images/blog/train-cabin.jpg" alt="" class="img-responsive blog-img">
+                                <p>
+                                    An <b>Application Programming Interface</b> (API) is a set of functions, procedures, methods or classes used by computer programs to request services from the operating system, software libraries or any other service providers running on the computer. A computer programmer uses the API to make application programs.
+                                    Types of API include web services API like the Twitter API, which allows programs to use the API to receive updates on tweets.
+                                    <br>
+                                    <i>- Wikipedia</i>
+                                </p>
+                                <p>
+                                    You might also have listened about Windows API or Android API. API term is also used in Frameworks. What they do is make our life easier by providing simple callable functions and data we can use to communicate with them or perform a task. The implementation mess is hidden from us. So we don't need to make the whole system from scratch. Windows APIs can be used to make windows applications which communicate with Windows OS in the background. Same for Android. In case of frameworks, they also make our life easier. If you are developing a Web-application, you don't want to code whole authentication system yourself, because the Web-frameworks provide such APIs which are implemented using standard security practices.
+                                </p>
+                                <p>
+                                    Now, let's move to an example. Suppose you are building a Website which helps user search hospitals at an entered location. Now what you need is hospitals data (their locations, names and opening hours). For that, going and asking them and putting that in your database and using it to search won't be a good idea. What you need here is location searching API. Google Maps has such types of APIs. You can get place search results, photos, address, etc. In the next section I will cover how to fetch Hospitals at a given location using Google Places API.
+                                </p>
+                                <p>
+                                    Software, libraries or frameworks let you use their APIs (functions). But, in case of Web-services or say Web APIs provided by others is mostly exchagned using the secret API key they provide to you. Same
+                                    is for Google Maps. We also need an API key from Google Maps, because we want to access their search
+                                    data. Head to <a href="https://developers.google.com/places/web-service/get-api-key">this</a> link and get an API key.
+                                </p>
+                                <img src="../../resources/images/blog/google-maps-api-key.png" alt="" class="img-responsive blog-img">
+                                <p>
+                                    We send requests to Web-services along with the API key and in turn they provide us response data. This data could be in formats like JSON or XML. We'll try to fetch JSON data. So, you need your API key in clipboard and paste it in the following URL below...
+                                </p>
+                                <pre><code class="html">https://maps.googleapis.com/maps/api/place/textsearch/json?query=hospitals+in+vadodara&key=YOUR_API_KEY_GOES_HERE</code></pre>
+                                <p>Try to paste and go to this link in the browser and you should see JSON results. Example response:</p>
+                                <pre><code class="json">{
+   "html_attributions" : [],
+   "next_page_token" : "CoQC_gAAAHdOTYDH8XmlIEGJleJH0GDeYGIbHrfDJgG0RB6NVxn3fpKRz9LKL5mGqUMa70NMPlbqOUkjdWxlRXV47oV8pVfYTNE_OuT9xrKbP6WwRGCSx6R_Ms-lfpnsCYCGuIb51-IH07Z6Ru3afw_uTN6--TFrEEyM7eRBXYm7Hzs1AdeEnQqhNNrjuNyKrp6Y52-zmYAtTDt16KuWEW54OyiioggW9mUrTpBqL38c-6D3Cf3-3c2CGu3Dtoca6Tc1H7S2yItEFw6zcYSk-EcHpWzjwcN3JK3BLVWzI8NsZaOxcGioLPyhbwX-obA9zpmtC_Iucsnc9NRwgBCY8p3UzQjFO1YSEO6xL_PEEYxeB6qxpAJG7ucaFOLpMT4oluEAR8VGR-JwNYFAnigQ",
+   "results" : [
+      {
+         "formatted_address" : "Race Course Road, Opposite Inox Cinema, Circle West, Hari Nagar, Vadodara, Gujarat 390007, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.3127258,
+               "lng" : 73.1588197
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.31407562989272,
+                  "lng" : 73.16016952989273
+               },
+               "southwest" : {
+                  "lat" : 22.31137597010728,
+                  "lng" : 73.15746987010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "a8f2c5fa79e2f8c311a3eaf32aba5762b7003f87",
+         "name" : "Sterling Hospital Vadodara",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2000,
+               "html_attributions" : [ "Photos are copyrighted by their owners" ],
+               "photo_reference" : "CmRaAAAADTFMMb7OuH6wgclN7cpJ84HbfNHS0Sn2rquQzBcHpu3lt0Ecwh-PhbnrtCThoixKh_sEpRdsEHVo8vrDGAKxrwRPufBSHGpOkSzLolpU3UiF6Ebt9gjkJEa5G8KRWlgMEhB87go_6dMh520_8ghrNjPkGhTCmKWszspuuNO7gFLVVMV4VtOzqA",
+               "width" : 2691
+            }
+         ],
+         "place_id" : "ChIJD3RehbvIXzkRGf65nYMHB3A",
+         "rating" : 3.1,
+         "reference" : "CmRbAAAAVN9K_mFDuBzWhVNwT4sKCtiku8GhYCpz65-VKz8ErpqX2Kof-KiyMY4iw3cXiYbEgwftvGvyFig7r6o5vmRE784PVTv2D3zfJ2XHn5yezHNLxgRjlfC-Np5W05HiEkOYEhDvybMSd-AILxW2Y1Z9kKd3GhStgMpKbwaJEmhiaDKdqFwiuT_Pag",
+         "types" : [ "hospital", "point_of_interest", "establishment" ]
+      }</code></pre>
+
+      <p>Here I've only included one result, there will be several results in the results object. Look for name attribute, opening hours, ratings and photos, etc. which are useful to us as we wanted to make hospital searching website. This is how we request and get response search data using Google Place API. It is also called HTTP transaction. If you are curious seeing the URL above, refer the API <a href="https://developers.google.com/places/web-service/intro">docs</a>.</p>
+      <p class="text-danger">Note: Google Place API comes with limited usage. Refer their pricing for more. The current limit is 1000 requests per day</p>
+      <p>Well this was an API use case from Google Maps. There are also other sites like fixer, instagram, twitter, facebook, yahoo weather which provide their APIs so that one can build applications which interact with them. For example, you can make weather application using data from yahoo weather API.</p>
+
+      <p>I hope now you have idea about APIs. The best way to understand something is build it. <!-- So, I also have a project tutorial in codeigniter which is Hospital search Web-application <a href="hospital-search-web-application-codeigniter.html">here</a>.</p> -->
+      <p>Thanks for reading. Comments are welcomed.</p>
+                            </div>
+                            
+                            <div id="disqus_thread"></div>
+                            <script>
+                            /**
+                            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                            /*
+                            var disqus_config = function () {
+                            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            };
+                            */
+                            (function() { // DON'T EDIT BELOW THIS LINE
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://abhigyan-tiwari.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                            })();
+                            </script>
+                            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                        </div>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            <script src="resources/scripts/vendor/modernizr-3.5.0.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+            <script>window.jQuery || document.write('<script src="../../resources/scripts/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+            <script src="../../resources/scripts/main.js"></script>
+            <script src="../../resources/scripts/vendor/plugins.js"></script>
+        </body>
+    </html>
