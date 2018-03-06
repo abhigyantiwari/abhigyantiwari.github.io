@@ -19,13 +19,13 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <!-- Title changes according the page's respective controller -->
-        <title>Abhigyan Tiwari</title>
-        
-        
-        TODO: ADD META
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Codeigniter simple hospital searching application project with form validation and Google recaptcha</title>
+        <meta name="author" content="Abhigyan Tiwari">
+        <meta name="description" content="How to make API powered hotel searching application in Codeigniter with captcha validation.">
+       <meta name="keywords" content="Codeigniter, codeigniter example, codeigniter search example, codeigniter hospital search application project, codeigniter ">
+
         <!-- I love Samosa, mo tan anythin -->
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="../../favicon.ico">
         
         <!-- HTML5 Boilerplate Opinionated CSS -->
         <link rel="stylesheet" href="../../resources/css/vendor/main.css">
@@ -33,66 +33,46 @@
         <link rel="stylesheet" href="../../resources/css/vendor/normalize.css">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-        <<link href="https://fonts.googleapis.com/css?family=Merriweather|Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Questrial" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="../../resources/css/blog.css" rel="stylesheet" type="text/css"/>
-    </head>
-    <body>
-        
-        <div class="container">
-            <div class="row">
-                <!-- Blog Nav -->
-                <div class="col-sm-12 text-right blog-nav">
-                    <a href="../../index.html" class="nav-link">Home</a>
-                    <a href="../blog.html" class="nav-link">Blog</a>
-                    <a href="../projects.html" class="nav-link">Projects</a>
-                    <a href="../about.html"  class="nav-link">About</a>
-                </div>
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6">
-                    <div class="text-left blog-frag">
-                        <h1 class="blog-title">Make a hospital searching web application in Codeigniter using Google Maps API</h1>
-                        <i class="blog-date">
-                        <i class="fa fa-calendar fa-lg"></i>
-                        Monday 12 February 2018</i>
-                        <div class="blog-body">
-                            
-                            <p>
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                            </p>
-                        </div>
-
-
-                        
-                        <div id="disqus_thread"></div>
-                        <script>
-                        /**
-                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-                        /*
-                        var disqus_config = function () {
-                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                        };
-                        */
-                        (function() { // DON'T EDIT BELOW THIS LINE
-                        var d = document, s = d.createElement('script');
-                        s.src = 'https://abhigyan-tiwari.disqus.com/embed.js';
-                        s.setAttribute('data-timestamp', +new Date());
-                        (d.head || d.body).appendChild(s);
-                        })();
-                        </script>
-                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <link rel="stylesheet"
+            href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+            <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        </head>
+        <body>
+            
+            <div class="container">
+                <div class="row">
+                    <!-- Blog Nav -->
+                    <div class="col-sm-12 text-right blog-nav">
+                        <a href="../../index.html" class="nav-link">Home</a>
+                        <a href="../blog.html" class="nav-link">Blog</a>
+                        <a href="../projects.html" class="nav-link">Projects</a>
+                        <a href="../about.html"  class="nav-link">About</a>
                     </div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <div class="text-left blog-frag">
+                            <h1 class="blog-title">Codeigniter simple hospital searching application project with form validation and Google recaptcha</h1>
+                            <i class="blog-date">
+                            <i class="fa fa-calendar fa-lg"></i>
+                            Friday 9 February 2018</i>
+                            <div class="blog-body">
+                              <p>In this article I show how to make a Hospital search Web-application using Codeigniter (PHP framework), it will have simple form validation and captcha from Google will also be there. The final project will look something like this...</p>
+                              <img src="../../resources/images/blog/hospital-search.jpg" alt="Homepage of hospital searach application" class="img-responsive blog-img">
+                            <p>Search results:</p>
+                            <img src="../../resources/images/blog/hospital-search-result.jpg" alt="Search results of hospital search application" class="img-responsive blog-img">
+                            </div>
+                    <div class="col-sm-3"></div>
                 </div>
-                <div class="col-sm-3"></div>
             </div>
-        </div>
-        
-        <script src="resources/scripts/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="../../resources/scripts/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="../../resources/scripts/main.js"></script>
-        <script src="../../resources/scripts/vendor/plugins.js"></script>
-    </body>
-</html>
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            <script src="../../resources/scripts/vendor/modernizr-3.5.0.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+            <script>window.jQuery || document.write('<script src="../../resources/scripts/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+            <script src="../../resources/scripts/main.js"></script>
+            <script src="../../resources/scripts/vendor/plugins.js"></script>
+        </body>
+    </html>

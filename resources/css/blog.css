@@ -4,15 +4,15 @@ html,body{
 	line-height: 25px;
 	color: grey;
 }
-
 .blog-nav{
 	margin-top: 10px;
+	margin-bottom: 50px;
 }
 
 .nav-link{
 	font-size: 20px;
 	margin: 10px;
-	color: black;
+	color: #545454;
 	border-bottom: 1px solid grey;
 }
 
@@ -37,9 +37,9 @@ html,body{
 
 .blog-title{
 	color: #545454;
-	line-height: 40px;
+	line-height: 42px;
 	font-family: 'Merriweather', sans-serif;
-	font-size: 28px;
+	font-size: 25px;
 }
 
 .blog-date{
